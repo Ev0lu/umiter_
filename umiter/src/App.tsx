@@ -1,22 +1,24 @@
 import './App.css'
-import about_python from '../public/about_python.png'
-import about_terrarium from '../public/about_terrarium.png'
-import adv1 from '../public/adv_1.png'
-import adv2 from '../public/adv_2.png'
-import adv3 from '../public/adv_3.png'
-import adv_4 from '../public/adv_4.png'
-import adv_5 from '../public/adv_5.png'
-import adv_vec_bottom from '../public/adv_vec_bottom.png'
-import adv_vec from '../public/adv_vec.png'
-import advantages_iguana from '../public/advantages_iguana.png'
-import footer_logo from '../public/footer_logo.svg'
-import footer_tel from '../public/footer_tel.svg'
-import footer_tg from '../public/footer_tg.svg'
-import header_logo from '../public/header_logo.svg'
-import main_logo from '../public/main_logo.svg'
-import main_vector from '../public/main_vector.svg'
-import smi_1 from '../public/smi_1.png'
-import smi_2 from '../public/smi_2.png'
+import about_python from '/about_python.png'
+import about_terrarium from '/about_terrarium.png'
+import adv1 from '/advantages1.png'
+import adv2 from '/advantages2.png'
+import adv3 from '/advantages3.png'
+import adv_4 from '/advantages4.png'
+import adv_5 from '/advantages5.png'
+import download from '/download.png'
+import adv_vec_bottom from '/adv_vec_bottom.png'
+import adv_vec from '/adv_vec.png'
+import advantages_iguana from '/advantages_iguana.png'
+
+import footer_logo from '/footer_logo.svg'
+import footer_tel from '/footer_tel.svg'
+import footer_tg from '/footer_tg.svg'
+import header_logo from '/header_logo.svg'
+import main_logo from '/main_logo.svg'
+import main_vector from '/main_vector.svg'
+import smi_1 from '/smi_1.png'
+import smi_2 from '/smi_2.png'
 
 
 
@@ -133,12 +135,45 @@ function App() {
                                              <div className="card_image_both">
                                                 <img src={adv2} alt=""/>
                                              </div>
+                                             <div className="card_image_both">
+                                                <img src={adv3} alt=""/>
+                                             </div>
                                           </div>
                                           <div className="card_text">
                                               <p>СОТРУДНИЧЕСТВО С ВЕТЕРИНАРНЫМИ ЦЕНТРАМИ "ПРАЙД" И "СИТИВЕТ"</p>
                                           </div>
                                     </div>
                               </div>
+                              <div className="card_item_3">
+                                      <div className="card_inner">
+                                          <div className="card_image">
+                                              <img src={adv_4} alt="" />
+                                          </div>
+                                          <div className="card_text">
+                                              <p>ФИНАЛИСТЫ КОНКУРСА СТАРТАП-СПБГУ 2022</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div className="card_item_4">
+                                      <div className="card_inner">
+                                          <div className="card_image">
+                                              <img src={adv_5} alt="" />
+                                          </div>
+                                          <div className="card_text">
+                                              <p>СОБСТВЕННОЕ ПРОИЗВОДСТВО ПОЛНОГО ЦИКЛА</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div className="card_item_5">
+                                      <div className="card_inner">
+                                        <div className="card_image">
+                                              <img src={download} alt="" />
+                                          </div>
+                                          <div className="card_text">
+                                              <p>Входит в ТОП-200 Университетских стартапов России</p>
+                                          </div>
+                                      </div>
+                                  </div>
 
                               </div>
                               <div className="achievements_bottom_vec">
