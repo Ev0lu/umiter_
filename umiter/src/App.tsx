@@ -20,10 +20,7 @@ import main_vector from '/main_vector.svg'
 import smi_1 from '/smi_1.png'
 import smi_2 from '/smi_2.png'
 
-
-
 function App() {
-
   return (
               <div className="body_wrapper">
                   <header className="header">
@@ -33,9 +30,9 @@ function App() {
                                   <img src={header_logo} alt=""/>
                               </div>
                               <nav className="header_menu">
-                                  <li><a href="#">о проекте</a></li>
-                                  <li><a href="#">сотрудничество</a></li>
-                                  <li><a href="#">контакты</a></li>
+                                  <li><a href="#about">о проекте</a></li>
+                                  <li><a href="#achievements">сотрудничество</a></li>
+                                  <li><a href="#footer">контакты</a></li>
                               </nav>
                           </div>
                       </div>
@@ -52,7 +49,7 @@ function App() {
                           </div>
                       </div>
                   </section>
-                  <section className="about">
+                  <section id="about" className="about">
                       <div className="container">
                           <div className="about_inner">
                               <div className="about_python">
@@ -110,7 +107,7 @@ function App() {
                           </div>
                       </div>
                   </section>
-                  <section className="achievements">
+                  <section id="achievements" className="achievements">
                     
                   <div className="container">
                           <div className="achievements_inner">
@@ -209,7 +206,7 @@ function App() {
                           </div>
                       </div>
                   </section>
-                  <footer className="footer">
+                  <footer id="footer" className="footer">
                       <div className="container">
                           <div className="footer_inner">
                               <div className="footer_left">
