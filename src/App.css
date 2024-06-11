@@ -1,9 +1,16 @@
+@font-face {
+  font-family: 'Ultramono Wide Black';
+  src: url('./fonts/UltramonoWide-Black.ttf') format('truetype');
+}
 
+@font-face {
+  font-family: 'Formular';
+  src: url('./fonts/Formular.ttf') format('truetype');
+}
 
 *{
   margin: 0px;
   padding: 0px;
-  font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
 }
 
@@ -25,9 +32,8 @@ p,a,span{
   font-family: 'Formular';
   font-size: 20px;
 }
-
 h1{
-  font-family: 'Ultramono Wide Black', sans-serif;
+  font-family: 'Ultramono Wide Black';
   font-style: normal;
   font-size: 48px;
   font-weight: 900;
