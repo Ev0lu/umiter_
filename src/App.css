@@ -597,6 +597,8 @@ a:visited{
   display: flex;
   flex-direction: column;
   gap: 50px;
+  width: 100%;
+
 }
 .smi_title{
   display: flex;
@@ -611,6 +613,10 @@ a:visited{
 
 .smi_text a{
   font-size: 11px;
+}
+
+.smi_text{
+  width: 90%;
 }
 
 @media (max-width:1200px){
